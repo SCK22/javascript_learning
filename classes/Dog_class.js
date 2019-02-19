@@ -18,7 +18,10 @@ class Dog {
     }
 }
 
+// Instance
+//  An instance is an object that contains the property names and methods of a class, but with unique property values. 
 
+// The new keyword calls the constructor(), runs the code inside of it, and then returns the new instance.
 const halley = new Dog('halley');
 // log name
 console.log(halley.name);
