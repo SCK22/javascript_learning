@@ -1,7 +1,7 @@
 // Arrays 
 //  Creating arrays
 const hobbies =['a','b','c'];
-console.log(hobbies);
+console.log("hobbies",hobbies);
 
 // Accessing elements
 
@@ -16,10 +16,10 @@ console.log(famousSayings[3]);
 
 // Update Elements
 let groceryList = ['bread', 'tomatoes', 'milk'];
-console.log(groceryList)
+console.log("groceryList",groceryList)
 
 groceryList[1] = 'avocados';
-console.log(groceryList)
+console.log("groceryList",groceryList)
 
 // Arrays with let and const
 // You may recall that you can declare variables with both the let and const keywords. Variables declared with let can be reassigned.
@@ -28,19 +28,19 @@ let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
 const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
 
 condiments[0] = 'Mayo';
-console.log(condiments);
+console.log("condiments",condiments);
 
 condiments = ['Mayo'];
-console.log(condiments);
+console.log("condiments",condiments);
 
 utensils[3] = 'Spoon';
-console.log(utensils);
+console.log("utensils",utensils);
 
 // We can change the elements of the arrays in both cases i.e  const and let, as always we cannot change the whole array if it is defined with const.
 
 
 // The .length property
-console.log(utensils.length);
+console.log("utensils.length",utensils.length);
 
 // Let's learn about some built-in JavaScript methods that make working with arrays easier. These methods are specifically called on arrays to make common tasks, like adding and removing elements, more straightforward.
 
@@ -103,23 +103,9 @@ function removeElement(newArr){
 removeElement(concept);
 console.log(concept);
 
-
 // Nested Arrays
 
 var numberClusters = [[1,2], [3,4], [5,6]];
 
 const target = numberClusters[2][1];
-console.log(target);
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("target",target);
