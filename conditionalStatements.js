@@ -94,6 +94,7 @@ let isLocked = false;
 //} else {
 //  console.log('You will not need a key to open the door.');
 //}
+// Ternanry operator
 isLocked?console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');
 
 let isCorrect = true;

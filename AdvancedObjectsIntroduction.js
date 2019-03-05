@@ -8,7 +8,7 @@ let robot = {
     provideInfo()  {return `I am ${this.model}  and my current energy level is ${this.energyLevel}`}
   };
   
-console.log(robot.provideInfo());
+console.log("Robot info",robot.provideInfo());
 
 // Privacy
 // https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/privacy
@@ -30,7 +30,7 @@ robot = {
     }
 };
 
-console.log(robot.energyLevel)
+console.log("Robot Energy leve",robot.energyLevel)
 
 // Setter methods
 // we can still change the values of properties without the setter methods
@@ -54,9 +54,9 @@ robot = {
     }
   };
   
-  console.log(robot.numOfSensors);
+  console.log("Before", robot.numOfSensors);
   robot.numOfSensors = 100;
-  console.log(robot.numOfSensors);
+  console.log("After", robot.numOfSensors);
 //   console.log(robot.name);
   
   
